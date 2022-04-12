@@ -7,7 +7,7 @@ Juno 译名朱诺。这个名字来源于古罗马神话中的众神之母。它
 
 ## Overview
 
-Juno 提供了对微服务进行管理的多项能力，包括应用监控、依赖分析、配置管理等。
+Juno 提供了对微服务进行管理的多项能力，包括应用监控、依赖分析、配置管理等。目前，您可以在[juno release notes](https://github.com/douyu/juno/releases)中找到各个版本的支持和介绍。
 
 ## 定义
 
@@ -44,10 +44,11 @@ Juno 提供了对微服务进行管理的多项能力，包括应用监控、依
 
 ## 快速开始
 
-### Requirements
-
-1. Etcd
-2. MySQL
+### 预备环境准备
+Juno依赖Golang、ETCD、MySQL环境运行，
+1. Golang；[!下载](https://golang.google.cn/dl/) & [!配置](https://golang.google.cn/doc/install)。
+2. Etcd; [!下载](https://github.com/etcd-io/etcd/releases/) & [!配置](https://etcd.io/docs/v3.5/install/)
+3. MySQL; [!下载 & 配置](https://dev.mysql.com/downloads/installer/)
 
 ### 二进制安装包和安装
 
